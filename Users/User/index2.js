@@ -212,12 +212,12 @@ Bg3.addEventListener('click', () => {
 let h3element = document.getElementById("h3");
 let icon = document.getElementById("icon");
 let count  ;
-// function like(){
-//     if(icon.classList.toggle("active")){
-//         count= 1 + "  liked"
-//     }
-//     else{
-//         count = 0 + "  liked"
-//     }
-//     h3element.innerText = count ;
-// }
+function like(){
+    if(icon.classList.toggle("active")){
+        count= 1 + "  liked"
+    }
+    else{
+        count = 0 + "  liked"
+    }
+    h3element.innerText = count ;
+}
